@@ -6,6 +6,12 @@ GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
 NC='\033[0m' # No Color
 
+#Check if sudo
+if [ "$EUID" -ne 0 ];then
+        echo -e "${RED}This script is required to be ran with sudo privileges!${NC}" 1>&2
+        exit 1
+fi
+
 # Function to create a new backup
 create_backup() {
     date=$(date +"%Y-%m-%d")
