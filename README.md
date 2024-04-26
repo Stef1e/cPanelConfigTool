@@ -1,38 +1,36 @@
-cPanelConfigTool
-cPanelConfigTool is a bash script designed to perform a WHM global backup of essential configuration files. It simplifies the process of backing up critical configuration files related to Apache, SMTP (Exim), AutoSSL options, backups, Greylist, Hulk, ModSecurity, MySQL, WHM configuration, and UI themes.
+# cPanelConfigTool
+=====================
 
-Features
-Automation: Automates the backup process, saving time and effort.
-Customizable: Easily configurable to include/exclude specific configuration files as needed.
-Efficient: Performs a global backup of essential cPanel/WHM configuration files in one go.
+## Overview
+cPanelConfigTool is a bash script that performs a WHM global backup of essential configuration files.
 
-Installation
-Clone the repository:
+## Features
+* Backs up the following configuration files:
+	+ Apache
+	+ SMTP-Exim
+	+ AutoSSL options
+	+ Backups
+	+ Greylist
+	+ Hulk
+	+ ModSecurity
+	+ MySQL
+	+ WHM configuration
+	+ UI themes
 
-git clone https://github.com/yourusername/cPanelConfigTool.git
+## Installation
+### Clone the repository
+```bash
+git clone https://github.com/Stef1e/cPanelConfigTool.git
+```
+### Make it executable
+```bash
+chmod +x cPanelConfigTool/cpconfigtool_v1.sh
+```
 
-Change directory to cPanelConfigTool:
-
-cd cPanelConfigTool
-
-Make the script executable:
-
-chmod +x cpconfigtool_v1.sh
-
-Run the script by executing the following command:
+### Run the script
+```bash
 ./cpconfigtool_v1.sh
-T
+```
 
-Configuration Files Backed Up
-apache
-smtp-exim
-autossl_options
-backups
-greylist
-hulk
-modsecurity
-mysql
-whmconf
-ui_themes
-Contributions
-Contributions are welcome! If you have any suggestions, feature requests, or bug reports, please feel free to open an issue or create a pull request.
+### Contributing
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please submit a pull request or open an issue.
