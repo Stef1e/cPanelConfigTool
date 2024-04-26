@@ -24,12 +24,12 @@ git clone https://github.com/Stef1e/cPanelConfigTool.git
 ```
 ### Make it executable
 ```bash
-chmod +x cPanelConfigTool/cpconfigtool_v1.sh
+chmod +x cPanelConfigTool/cpconfigbkup.sh
 ```
 
 ### Run the script
 ```bash
-./cpconfigtool_v1.sh
+./cpconfigbkup.sh
 ```
 
 ### Contributing
