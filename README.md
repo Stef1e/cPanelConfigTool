@@ -2,7 +2,7 @@
 =====================
 
 ## Overview
-Welcome to cPanelConfigTool! This handy bash script streamlines the process of performing a WHM global backup of essential configuration files. Whether you're managing Apache, SMTP-Exim, or MySQL configurations, this tool has you covered.
+Welcome to cPanelConfigTool! This handy bash script streamlines the process of performing a WHM global backup of essential configuration files like Apache, SMTP-Exim, or MySQL configurations.
 
 ## Features
 - **Comprehensive Backups:**
